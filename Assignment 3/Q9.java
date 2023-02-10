@@ -23,11 +23,16 @@ public class Q9 {
 		else if(c>a && a>b)
 		{System.out.println("Largest Number is : "+c);
 		System.out.println("2nd largest Number is: "+a);
-		
-	}
-		else
+		}
+		else if(a>c && c>b)
+		{System.out.println("Largest Number is : "+a);
+		System.out.println("2nd largest Number is: "+c);}
+		else if(c>b && b>a)
 		{System.out.println("Largest Number is : "+c);
-		System.out.println("2nd largest Number is: "+b);
+		System.out.println("2nd largest Number is: "+b);}
+		else 
+		{System.out.println("Largest Number is : "+b);
+		System.out.println("2nd largest Number is: "+c);
 		}} 
     
 }
